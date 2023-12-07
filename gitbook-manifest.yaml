@@ -1,0 +1,19 @@
+name: Inkeep-chat
+title: Inkeep-chat
+organization: 5q39a3UOSJbY1tL4j0xa
+visibility: private
+description: ''
+script: src/index.tsx
+scopes:
+  - space:content:read
+  - space:content:write
+  - space:metadata:read
+  - space:metadata:write
+  - space:views:read
+  - space:git:sync
+  - entities:write
+blocks:
+  - id: Inkeep-chat
+    title: Inkeep-chat
+    description: My GitBook Integration
+secrets: {}
